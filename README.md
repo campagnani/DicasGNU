@@ -1,11 +1,8 @@
 # Dicas úteis para operar o sistema operacional GNU
 
-<div style="text-align: right;">
-Thalles Oliveira Campagnani </p>
-Engenheiro Mecatrônico / CEFET-MG </p>
-Mestrando em Ciências e Técnicas Nucleares no Departamento de Engenharia Nuclear / UFMG </p>
-</div>
-
+<div style="text-align: right;">Thalles Oliveira Campagnani</div>
+<div style="text-align: right;">Engenheiro Mecatrônico / CEFET-MG</div>
+<div style="text-align: right;">Mestrando em Ciências e Técnicas Nucleares no Departamento de Engenharia Nuclear / UFMG</div>
 
 
 
