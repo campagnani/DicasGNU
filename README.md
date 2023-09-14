@@ -1,8 +1,11 @@
 # Dicas úteis para operar o sistema operacional GNU
 
-Thalles Oliveira Campagnani
-Engenheiro Mecatrônico / CEFET-MG
-Mestrando em Ciência e Técnicas Nucleares no Departamento de Engenharia Nuclear / UFMG
+<div style="text-align: right;">
+Thalles Oliveira Campagnani </p>
+Engenheiro Mecatrônico / CEFET-MG </p>
+Mestrando em Ciências e Técnicas Nucleares no Departamento de Engenharia Nuclear / UFMG </p>
+</div>
+
 
 
 
@@ -12,36 +15,39 @@ Mestrando em Ciência e Técnicas Nucleares no Departamento de Engenharia Nuclea
 O terminal é uma importante ferramenta para operar o sistema operacional GNU, logo mais vamos entender o porquê.
 Nada de medo da tela preta! Vamos logo aprender a abrir ele:
 
+#### Abrir o emulador de terminal na interface gráfica:
 
-Ctrl + Alt + t	Abre o emulador de terminal na interface gráfica
-Obs:
-Logado no seu usuário.
-Abre direto no diretório do usuário: /home/nome_do_usuario
-Nem todos computadores têm esse atalho configurado.
-
-
-
-F4			Só funciona no gerenciador de arquivos!! Abre o emulador de terminal na interface gráfica.
-Obs:
-Também logado no seu usuário.
-Abre direto na pasta que você estava no gerenciador de arquivos.
+| Ctrl + Alt + t |
+|---|
+| Já abre logado no seu usuário.|
+| Abre direto no diretório do usuário: /home/nome_do_usuario |
+| Nem todos computadores têm esse atalho configurado. |
 
 
 
-Shift + F4		Igual o anterior.
-A diferença é que em alguns gerenciador de arquivos o comando anterior abre o 
-emulador de terminal acoplado ao gerenciador de arquivos, e este abre em uma janela separada.
-Já outros não existe esse atalho, e o comando anterior abre direto em uma janela separada.
+| F4 |
+|---|
+|Só funciona no gerenciador de arquivos!! |
+|Também logado no seu usuário.|
+|Abre direto na pasta que você estava no gerenciador de arquivos.|
 
 
 
-Ctrl + Alt + Fx	Abre o terminal no ttyX (tela preta)
-Obs:
-Fx pode ser F1, F2, F3 … F7
-F1 abre o tty1, e assim sucessivamente
-Geralmente no tty1 ou tty7 se encontra a interface gráfica, e o restante são tty disponíveis para ser usados.
-Para voltar a interface gráfica basta usar o atalho com F1 ou F7.
-Muito útil para resolver problemas quando a interface gráfica está inacessível.
+|Shift + F4|
+|---|
+|A diferença é que em alguns gerenciador de arquivos o comando anterior abre o |
+|emulador de terminal acoplado ao gerenciador de arquivos, e este abre em uma janela separada.|
+|Já outros não existe esse atalho, e o comando anterior abre direto em uma janela separada.|
+
+
+#### Abrir o terminal no ttyX (tela preta):
+|Ctrl + Alt + Fx|
+|---|
+|Fx pode ser F1, F2, F3 F4, F5, F6 ou F7|
+|F1 abre o tty1, e assim sucessivamente|
+|Geralmente no tty1 ou tty7 se encontra a interface gráfica, e o restante são tty disponíveis para ser usados.|
+|Para voltar a interface gráfica basta usar o atalho com F1 ou F7.|
+|Muito útil para resolver problemas quando a interface gráfica está inacessível.|
 
 
 
@@ -55,48 +61,49 @@ Muito útil para resolver problemas quando a interface gráfica está inacessív
 Aprenda a navegar pela linha de comandos sem passar raiva. Geralmente estamos acostumados a usar o mouse para controlar o cursor, selecionar palavras, etc. E estamos acostumados a editar textos. Na linha de comandos do terminal não iremos conseguir usar o mouse e não estamos editando um texto, então algumas teclas tem até outras funções, como a seta para cima e para baixo. Então vamos lá:
 
 
-SetaDireita		Obviamente move o cursor uma posição para direita.
+|Tecla|Função|
+|-|-|
+|SetaDireita|Obviamente move o cursor uma posição para direita.|
+|SetaEsquerda|Obviamente move o cursor uma posição para esquerda.|
+|SetaCima|Não obviamente, mas move para o último comando executado (recua no histórico de comandos)|
+|SetaBaixo|Avança do histórico de comandos.|
 
-SetaEsquerda	Obviamente move o cursor uma posição para esquerda.
-
-SetaCima		Não obviamente move para o último comando executado.
 Lembre-se: você está em uma linha de comandos (e não um texto), logo só existe 
 uma dimensão (sentido esquerda-direita), então as teclas cima-baixo servem para navegar no 
 histórico de comandos.
-Se pressionada novamente vai voltando no histórico de comandos.
 
-SetaBaixo		Avança do histórico de comandos.
 
-Ctrl + SetaEsquerda 	Recua o cursor para o começo de uma palavra, ou palavra anterior.
-(nada de ficar segurando SetaEsquerda!!! Use Ctrl + SetaEsquerda)
+|Atalhos Setas|Função|
+|-|-|
+|Ctrl + SetaEsquerda|Recua o cursor para o começo de uma palavra, ou palavra anterior.|
+|Ctrl + SetaDireta|Avança o cursor para o começo da próxima palavra.|
 
-Ctrl + SetaDireta	Avança o cursor para o começo da próxima palavra.
+Nada de ficar segurando SetaEsquerda/Direita!!! Use Ctrl + Seta.
 
-HOME		Move o cursor para o início da linha de comandos
 
-END		Move o cursor para o final da linha de comandos
+|Tecla|Função|
+|-|-|
+|HOME|Move o cursor para o início da linha de comandos
+|END|Move o cursor para o final da linha de comandos
+|PageUp|Vai para o primeiro comando salvo no histórico (mais antigo).
+|PageDown|Vai para o último comando salvo no histórico (mais novo).
 
-PageUp		Vai para o primeiro comando salvo no histórico (mais antigo).
+|Tecla|Função|
+|-|-|
+|BackSpace|Apaga o caractere anterior ao cursor.
+|Del|Apaga o caractere em cima do cursor.
+|Alt + BackSpace|Apaga a palavra anterior ao cursor.
+|Ctrl + Del|Apaga a palavra na frente do cursor.
 
-PageDown		Vai para o último comando salvo no histórico (mais novo).
+Nada de ficar segurando BackSpace!!
 
-BackSpace 	Apaga o caractere anterior ao cursor.
-
-Del			Apaga o caractere em cima do cursor.
-
-Alt + BackSpace 	Apaga a palavra anterior ao cursor.
-(nada de ficar segurando BackSpace!!)	
-
-Ctrl + Del		Apaga a palavra na frente do cursor.
-
-TAB			Completa a palavra que você está digitando
-(Somente se for única opção)
-
-TAB TAB 		Mostra as possíveis opções de completar a palavra que você está digitando.
-Somente se existir 2 ou mais opções.
-Se existir somente uma opção ele vai completar.
-			Se não existir ele não vai fazer nada (talvez faça um barulho do tipo beep)
-			(TAB TAB significa pressionar duas vezes consecutivas)
+|Tecla|Função|
+|-|-|
+|TAB|Completa a palavra que você está digitando (Somente se for única opção)|
+|TAB TAB|(TAB TAB significa pressionar duas vezes consecutivas)|
+||Mostra as possíveis opções de completar a palavra que você está digitando. (Somente se existir 2 ou mais opções)
+||Se existir somente uma opção ele vai completar.
+||Se não existir ele não vai fazer nada (talvez faça um barulho do tipo beep)
 
 
 
