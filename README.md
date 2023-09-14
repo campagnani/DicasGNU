@@ -38,6 +38,7 @@ Nada de medo da tela preta! Vamos logo aprender a abrir ele:
 
 
 #### Abrir o terminal no ttyX (tela preta):
+
 |Ctrl + Alt + Fx|
 |---|
 |Fx pode ser F1, F2, F3 F4, F5, F6 ou F7|
